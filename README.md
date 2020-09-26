@@ -1,2 +1,5 @@
-# sudoku
-Sudoku Generator
+# Sudoku Generator
+
+```bash
+python sudoku.py 9
+```
