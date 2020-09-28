@@ -80,6 +80,6 @@ class SudokuGenerator:
         return self.sudoku
 
 if __name__ == '__main__':
-    size = int(sys.argv[1] or 9)
+    size = int(sys.argv[1])
     sudoku = SudokuGenerator(size).generate()
     print(sudoku)
