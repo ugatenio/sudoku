@@ -18,5 +18,5 @@ class SudokuGenerator:
 
     def generate(self):
         self._solve()
-        # self._punch()
+        self._punch()
         return self.sudoku
