@@ -5,7 +5,7 @@ from random import random
 class SudokuGenerator:
     def __init__(self, size):
         self.sudoku = SudokuBoard(size)
-        self.threshold = 0.4
+        self.threshold = 0.5
 
     def _solve(self):
         SudokuSolver(self.sudoku).solve()
@@ -18,5 +18,5 @@ class SudokuGenerator:
 
     def generate(self):
         self._solve()
-        self._punch()
+        # self._punch()
         return self.sudoku
